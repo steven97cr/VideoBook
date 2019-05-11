@@ -1,0 +1,133 @@
+body{
+  background-color: whitesmoke;
+}
+.pageContainer {
+    position: relative;
+    min-height: 100vh;
+  }
+.contentWrap {
+    padding-bottom: 150px;
+    /* padding-top: 75px; */
+  }
+  .navbarr{
+    background: white;
+    box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+  }
+.footer{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 150px;
+    background-color: rgb(46, 46, 46);          /* Footer height */
+  }
+
+  .addBtn{
+    background: none;
+    border-radius: 5px;
+    border-color: rgba(0,0,0,0.125);
+    width: 100%;
+    height: 150px;
+  }
+  .addBtn:hover{
+    box-shadow: 0px 0px 3px 0px rgba(0,0,0,0.75);
+  }
+
+  .searchUsr{
+    width: 80%;
+    margin-left: 10%;
+  }
+
+  .videoContainer{
+    width: 100%;
+    position: relative;
+  }
+  .deleteVideoBtn{
+    position: absolute;
+    right: 5px;
+    top: 5px;
+  }
+
+  .profileImg{
+    height: 30px;
+    width: 30px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 100%;
+  }
+
+  .btnShowProfile{
+    height: 100%;
+    width: 100%;
+    background: none;
+    border: none;
+  }
+
+.userCard{
+  background: none;
+  border: 1px solid;
+  border-radius: 5px;
+  border-color: rgba(0,0,0,0.125);
+  width: 100%;
+  height: 150px;
+  position: relative;
+  overflow: hidden;
+  transition: 300ms;
+  background-color: white;
+}
+.userCard:hover{
+  box-shadow: 0px 0px 3px 0px rgba(0,0,0,0.75);
+}
+
+.userCardCoverPhoto{
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 50%;
+  width: 100%;
+}
+.userCardProfilePhoto{
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 75px;
+  width: 75px;
+  position: absolute;
+  margin: auto 0;
+  border-radius: 100%;
+  top: 35px;
+  left: 35%;
+  border: 3px whitesmoke solid;
+  box-shadow: 0px 0px 3px 0px rgba(0,0,0,0.75);
+}
+.userCardName{
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 30px;
+  text-align: center;
+}
+
+.titleLogo{
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+
+.titleLogo:hover{
+    text-decoration:none;
+    cursor:pointer;
+    color: rgba(0, 0, 0, 0.753);
+   }
+
+  .logoutTag{
+  text-decoration: none;
+  color: black;
+  padding-top: 3px;
+}
+
+.logoutTag:hover{
+    text-decoration:none;
+    cursor:pointer;
+    color: rgba(0, 0, 0, 0.753);
+    }
